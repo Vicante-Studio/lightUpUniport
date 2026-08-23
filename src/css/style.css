@@ -1,12 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 
-:root { --plum: #21113d; --ink: #182535; --aqua: #dff5f5; --amber: #ff9c4a; }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; color: var(--ink); font-family: 'DM Sans', sans-serif; background: #f9fbfb; }
-h1, h2, h3, .display-font { font-family: 'Plus Jakarta Sans', sans-serif; }
-.bg-dots { background-image: radial-gradient(rgba(33,17,61,.12) 1px, transparent 1px); background-size: 22px 22px; }
-.text-balance { text-wrap: balance; }
-.reveal { animation: reveal .7s ease both; }
-@keyframes reveal { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-"
+:root { 
+    --plum: #21113d; 
+    --ink: #182535; 
+    --aqua: #dff5f5; 
+    --amber: #ff9c4a;
+ }
+
+
+* { 
+    box-sizing: border-box;
+ }
+
+
+html { 
+    scroll-behavior: smooth;
+ }
+
+
+body {
+     margin: 0; 
+     color: var(--ink); 
+     font-family: 'DM Sans', sans-serif; 
+     background: #f9fbfb; 
+}
+
+h1, h2, h3, .display-font { 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+ }
+
+
+.bg-dots { 
+    background-image: radial-gradient(rgba(33,17,61,.12) 1px, transparent 1px);
+    background-size: 22px 22px;
+ }
+
+
+.text-balance { 
+    text-wrap: balance;
+ }
+
+.reveal { 
+    animation: reveal .7s ease both;
+ }
+@keyframes reveal { 
+    from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); }
+ }
